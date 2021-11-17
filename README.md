@@ -7,4 +7,4 @@ Kullanım :
 2-GameManager içindeki ilgili reklama ait fonksiyonun içini değiştirin.
 3-UI'da Canvas_Manager'deki fonksiyonu kullanan bir button oluşturun.
 
-Herhangi bir bug veya öneri için 13yedecim13@gmail.com
+Herhangi bir bug veya öneri için  13yedecim13@gmail.com
