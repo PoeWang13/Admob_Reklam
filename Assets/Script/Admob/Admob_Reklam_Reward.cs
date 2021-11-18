@@ -43,12 +43,12 @@ public class Admob_Reklam_Reward : MonoBehaviour
     // When load Reward Ad. open Reward button
     private void OpenRewardButton()
     {
-        Canvas_Manager.Instance.OpenRewardButton();
+        Admob_Canvas_Manager.Instance.OpenRewardButton();
     }
     // When someone watch Reward Ad.
     private void OnRewardAdWatchedHandle(GoogleMobileAds.Api.Reward reward)
     {
-        GameManager.Instance.GiveReward((int)reward.Amount);
+        Admob_Reward_Functions.Instance.GiveReward((int)reward.Amount);
     }
     // Add some function for clicked Reward
     public void WhenUseReward(UnityAction action, bool isOne = true)

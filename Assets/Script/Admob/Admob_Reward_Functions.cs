@@ -1,10 +1,10 @@
 using UnityEngine;
 using System.Collections;
 
-public class GameManager : MonoBehaviour
+public class Admob_Reward_Functions : MonoBehaviour
 {
-    private static GameManager instance;
-    public static GameManager Instance { get { return instance; } }
+    private static Admob_Reward_Functions instance;
+    public static Admob_Reward_Functions Instance { get { return instance; } }
     private void Awake()
     {
         if (instance == null)

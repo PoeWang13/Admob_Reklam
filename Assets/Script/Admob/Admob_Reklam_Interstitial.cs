@@ -37,7 +37,7 @@ public class Admob_Reklam_Interstitial : MonoBehaviour
     // When load Interstitial Ad. open Interstitial button
     public void LoadInterstitial()
     {
-        Canvas_Manager.Instance.OpenInterstitialButton();
+        Admob_Canvas_Manager.Instance.OpenInterstitialButton();
     }
     // Add some function for clicked Interstitial
     public void WhenUseInterstitial(UnityAction action, bool isOne = true)

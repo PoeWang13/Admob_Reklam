@@ -1131,7 +1131,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1687138916}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3a26faff06e07734e883763374e39bc0, type: 3}
+  m_Script: {fileID: 11500000, guid: 5439e2ec62a7dde42af8b8605b5a048b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   reklamInterstitialBut: {fileID: 829880050}
@@ -1147,7 +1147,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1687138916}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ab987efdad8e5d846a84ae35828e8fa0, type: 3}
+  m_Script: {fileID: 11500000, guid: f7977145c6992b64299746e17d856064, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1714103106
