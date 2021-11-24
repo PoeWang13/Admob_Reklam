@@ -15,11 +15,11 @@ D:/Admob_Reklam
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-63123
+55377
 Successfully changed project path to: D:/Admob_Reklam
 D:/Admob_Reklam
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 23.71 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 29.03 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.8f1 (507919d4fff5)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/2020.3.8f1/Editor/Data/Resources/UnitySubsystems
@@ -35,43 +35,675 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/2020.3.8f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/2020.3.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/2020.3.8f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56436
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56200
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/2020.3.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001507 seconds.
+Registered in 0.002174 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 20.92 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 21.31 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.446 seconds
+- Completed reload, in  1.537 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002349 seconds.
+Registered in 0.002386 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.785 seconds
+- Completed reload, in  0.837 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1156 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 60.1 MB.
-System memory in use after: 60.2 MB.
+System memory in use after: 60.1 MB.
 
 Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 1596.
-Total: 1.449200 ms (FindLiveObjects: 0.113900 ms CreateObjectMapping: 0.032200 ms MarkObjects: 1.242200 ms  DeleteObjects: 0.060200 ms)
+Total: 1.589200 ms (FindLiveObjects: 0.122900 ms CreateObjectMapping: 0.034500 ms MarkObjects: 1.364000 ms  DeleteObjects: 0.067100 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Script/Admob/SampleScene.unity
+  path: Assets/Script/Admob/Admob_Reward_Functions.cs
+  artifactKey: Guid(f7977145c6992b64299746e17d856064) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/Admob/Admob_Reward_Functions.cs using Guid(f7977145c6992b64299746e17d856064) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b56c462826d08639483e801cee1b979') in 0.016519 seconds
+  Import took 0.020107 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.176165 seconds.
+  path: Assets/Script/Admob/Admob.unity
   artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Script/Admob/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e1bf3e03234b9484d5a191c64b7af16') in 0.014160 seconds
-  Import took 0.015712 seconds .
+Start importing Assets/Script/Admob/Admob.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bec64dccad64d2a4a789063ef8e8da02') in 0.016049 seconds
+  Import took 0.018436 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 34.073678 seconds.
+  path: Assets/ExternalDependencyManager/Editor/LICENSE
+  artifactKey: Guid(8eecd69617bb46e28e67b904a04a18b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExternalDependencyManager/Editor/LICENSE using Guid(8eecd69617bb46e28e67b904a04a18b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bbed4ca8ce9168b9a9a02e2c2a5c9b3') in 0.009459 seconds
+  Import took 0.012263 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008100 seconds.
+  path: Assets/ExternalDependencyManager/Editor/1.2.167/Google.PackageManagerResolver.dll.mdb
+  artifactKey: Guid(aa0a9e8c955f478ab7f33e63c160fc57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExternalDependencyManager/Editor/1.2.167/Google.PackageManagerResolver.dll.mdb using Guid(aa0a9e8c955f478ab7f33e63c160fc57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '633ec2230bc7beb543f19a679aef7464') in 0.015684 seconds
+  Import took 0.018233 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009817 seconds.
+  path: Assets/GoogleMobileAds/Editor/GoogleMobileAdsSettingsEditor.cs
+  artifactKey: Guid(8afb1338afbd34c4fac628cd6175c032) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleMobileAds/Editor/GoogleMobileAdsSettingsEditor.cs using Guid(8afb1338afbd34c4fac628cd6175c032) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bc72fe84b14ad64b769410c720f10fe') in 0.006476 seconds
+  Import took 0.008956 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.044291 seconds.
+  path: Assets/GoogleMobileAds/Editor/Resources/DummyAds/Banners/ADAPTIVE.prefab
+  artifactKey: Guid(b2a3ea2f1837847d9981501e0eeca085) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleMobileAds/Editor/Resources/DummyAds/Banners/ADAPTIVE.prefab using Guid(b2a3ea2f1837847d9981501e0eeca085) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e41f4fc6fd87fb6c3800160ed3fa752') in 0.033619 seconds
+  Import took 0.036118 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005073 seconds.
+  path: Assets/ExternalDependencyManager/Editor/1.2.167/Google.JarResolver.dll.mdb
+  artifactKey: Guid(c9bf28bc72e848dbaca9ce8a2cae1285) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExternalDependencyManager/Editor/1.2.167/Google.JarResolver.dll.mdb using Guid(c9bf28bc72e848dbaca9ce8a2cae1285) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0d330e74cefa705dcc8c5ba3b0dbdef') in 0.004095 seconds
+  Import took 0.005609 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005118 seconds.
+  path: Assets/GoogleMobileAds/GoogleMobileAds.iOS.dll
+  artifactKey: Guid(735ca9cf259f453abac02f4573d8a420) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleMobileAds/GoogleMobileAds.iOS.dll using Guid(735ca9cf259f453abac02f4573d8a420) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1159890c7b06e321b48f0f8bf30a0400') in 0.007926 seconds
+  Import took 0.010189 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005524 seconds.
+  path: Assets/GoogleMobileAds/link.xml
+  artifactKey: Guid(d6461f9591d240498f49453b73a48552) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleMobileAds/link.xml using Guid(d6461f9591d240498f49453b73a48552) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '388c9b885f8c531daaa546916c43cb1a') in 0.009149 seconds
+  Import took 0.011420 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005620 seconds.
+  path: Assets/GoogleMobileAds/CHANGELOG.md
+  artifactKey: Guid(161c4904cd2045a1bf046453a58a9d7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleMobileAds/CHANGELOG.md using Guid(161c4904cd2045a1bf046453a58a9d7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f06f68f1d49e4d2e253e7b7a3a3dc598') in 0.006672 seconds
+  Import took 0.008831 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004841 seconds.
+  path: Assets/ExternalDependencyManager/Editor/1.2.167/Google.PackageManagerResolver.dll
+  artifactKey: Guid(88bd9c8c77ed43338f241688f9c97106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExternalDependencyManager/Editor/1.2.167/Google.PackageManagerResolver.dll using Guid(88bd9c8c77ed43338f241688f9c97106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '187497514adf239638142d2cc37074b5') in 0.004851 seconds
+  Import took 0.007121 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002421 seconds.
+  path: Assets/Plugins
+  artifactKey: Guid(978e9a245249bcf46aa41f9cc6ef6549) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins using Guid(978e9a245249bcf46aa41f9cc6ef6549) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26130ac4a60548bc896697a988cd39df') in 0.004069 seconds
+  Import took 0.006103 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002758 seconds.
+  path: Assets/Plugins/Android/GoogleMobileAdsPlugin.androidlib
+  artifactKey: Guid(e3c2449097627f94793f7fc297e4fa97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Android/GoogleMobileAdsPlugin.androidlib using Guid(e3c2449097627f94793f7fc297e4fa97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '822bfd4e8b7389157292e7f1c037580f') in 0.004845 seconds
+  Import took 0.006880 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004393 seconds.
+  path: Assets/GoogleMobileAds/Editor/Resources/DummyAds/Interstitials/1024x768.prefab
+  artifactKey: Guid(53084846ca7a14a878485a5db71fda00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleMobileAds/Editor/Resources/DummyAds/Interstitials/1024x768.prefab using Guid(53084846ca7a14a878485a5db71fda00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8930bf0623a7f6107337a79d715b2e06') in 0.006454 seconds
+  Import took 0.008345 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004304 seconds.
+  path: Assets/GoogleMobileAds/Editor/Resources/DummyAds/Banners/LARGE_BANNER.prefab
+  artifactKey: Guid(2758392ec5c0c413886eaf50350c125e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleMobileAds/Editor/Resources/DummyAds/Banners/LARGE_BANNER.prefab using Guid(2758392ec5c0c413886eaf50350c125e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee14b7494a29abe04cccbf7714590b21') in 0.005548 seconds
+  Import took 0.007883 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005185 seconds.
+  path: Assets/GoogleMobileAds/Editor/Resources/DummyAds/Banners/MEDIUM_RECTANGLE.prefab
+  artifactKey: Guid(da3156337d5ca4d529cf72f8b467823b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleMobileAds/Editor/Resources/DummyAds/Banners/MEDIUM_RECTANGLE.prefab using Guid(da3156337d5ca4d529cf72f8b467823b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5872baac947d781f907560432e9be96d') in 0.006157 seconds
+  Import took 0.008143 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003153 seconds.
+  path: Assets/ExternalDependencyManager
+  artifactKey: Guid(d6991a9d829c64d43a16bdb6ace1c25e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExternalDependencyManager using Guid(d6991a9d829c64d43a16bdb6ace1c25e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '031b0ac647e95fc10afcaa209ab5c73c') in 0.004129 seconds
+  Import took 0.005986 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004947 seconds.
+  path: Assets/GoogleMobileAds/Editor/Resources/DummyAds/AdImages/768x1024.png
+  artifactKey: Guid(8a53f9c63a5e94b14a98698a7b07365b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleMobileAds/Editor/Resources/DummyAds/AdImages/768x1024.png using Guid(8a53f9c63a5e94b14a98698a7b07365b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8929272f0b1d826372b65139525a9e1') in 0.071843 seconds
+  Import took 0.074187 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005425 seconds.
+  path: Assets/GoogleMobileAds/Editor/BuildPreProcessor.cs
+  artifactKey: Guid(685dda80cd994008bf8bb721870d8118) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleMobileAds/Editor/BuildPreProcessor.cs using Guid(685dda80cd994008bf8bb721870d8118) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '362803eae3af706527089477d36f9ce7') in 0.004034 seconds
+  Import took 0.005955 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005194 seconds.
+  path: Assets/GoogleMobileAds/Editor/Resources/DummyAds/Banners/LEADERBOARD.prefab
+  artifactKey: Guid(60a76727b740d485fa446352e56931c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleMobileAds/Editor/Resources/DummyAds/Banners/LEADERBOARD.prefab using Guid(60a76727b740d485fa446352e56931c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a116069498cf6d138d870954d4e08751') in 0.005933 seconds
+  Import took 0.008115 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005041 seconds.
+  path: Assets/GoogleMobileAds/Editor/Resources/DummyAds/AdImages/320x480.png
+  artifactKey: Guid(77d9c04b43d404f44ab60d7159b279bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleMobileAds/Editor/Resources/DummyAds/AdImages/320x480.png using Guid(77d9c04b43d404f44ab60d7159b279bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a79fd133939df4ecd5b9457e4b42e04') in 0.015713 seconds
+  Import took 0.018009 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004991 seconds.
+  path: Assets/GoogleMobileAds/Editor/GoogleMobileAdsSettings.cs
+  artifactKey: Guid(a187246822bbb47529482707f3e0eff8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleMobileAds/Editor/GoogleMobileAdsSettings.cs using Guid(a187246822bbb47529482707f3e0eff8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfaaea9762094257ac898d2560998512') in 0.003770 seconds
+  Import took 0.005533 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004446 seconds.
+  path: Assets/ExternalDependencyManager/Editor/Google.VersionHandler.dll.mdb
+  artifactKey: Guid(ef26ac90dcbc4d9ca1882df034d4c066) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExternalDependencyManager/Editor/Google.VersionHandler.dll.mdb using Guid(ef26ac90dcbc4d9ca1882df034d4c066) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '437d47da04f77bbf915da766125a8e0e') in 0.005041 seconds
+  Import took 0.006917 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004472 seconds.
+  path: Assets/GoogleMobileAds/Editor/PListProcessor.cs
+  artifactKey: Guid(d1d26b084dc244c8c818f67662e51f6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleMobileAds/Editor/PListProcessor.cs using Guid(d1d26b084dc244c8c818f67662e51f6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9cf04ee227309e0227c0d0eef65a128') in 0.003823 seconds
+  Import took 0.005758 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002579 seconds.
+  path: Assets/GoogleMobileAds/Editor
+  artifactKey: Guid(791002aefeb6eae44be82151e5267cdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleMobileAds/Editor using Guid(791002aefeb6eae44be82151e5267cdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24adc066b175b87c38d3b7f3ba3f650b') in 0.004062 seconds
+  Import took 0.006069 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002795 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(95040f91df475a7409ec6edef1325c62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(95040f91df475a7409ec6edef1325c62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27a52c06b728a2e4c09c4b74d65fdc1f') in 0.004070 seconds
+  Import took 0.006061 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005594 seconds.
+  path: Assets/GoogleMobileAds/Editor/Resources/DummyAds/Banners/CENTER.prefab
+  artifactKey: Guid(452d0eeb28d68420d95c05a6712689be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleMobileAds/Editor/Resources/DummyAds/Banners/CENTER.prefab using Guid(452d0eeb28d68420d95c05a6712689be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e05ffa02837875896ab13fc1a5a28172') in 0.006905 seconds
+  Import took 0.009237 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006552 seconds.
+  path: Assets/GoogleMobileAds/Editor/Resources/DummyAds/Rewarded/768x1024.prefab
+  artifactKey: Guid(4e3dd9a9607da46da8125b4b59a18db2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleMobileAds/Editor/Resources/DummyAds/Rewarded/768x1024.prefab using Guid(4e3dd9a9607da46da8125b4b59a18db2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '833ab621b11aae040cd8577dec8696b3') in 0.004169 seconds
+  Import took 0.006800 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006040 seconds.
+  path: Assets/ExternalDependencyManager/Editor/CHANGELOG.md
+  artifactKey: Guid(fbfd3453b643461abff4f68ad0696d91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExternalDependencyManager/Editor/CHANGELOG.md using Guid(fbfd3453b643461abff4f68ad0696d91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4bbebd79e425bc2a8ab5c83734c21d5') in 0.002056 seconds
+  Import took 0.004177 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003294 seconds.
+  path: Assets/ExternalDependencyManager/Editor
+  artifactKey: Guid(c9904a9742de1c44892014ff96f995a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExternalDependencyManager/Editor using Guid(c9904a9742de1c44892014ff96f995a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '825386124a5863f3d0dffcfa5ace0774') in 0.001495 seconds
+  Import took 0.003628 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005083 seconds.
+  path: Assets/GoogleMobileAds/Editor/Resources/DummyAds/Interstitials/768x1024.prefab
+  artifactKey: Guid(9e579ef4793d34e79be6a216c0b67d78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleMobileAds/Editor/Resources/DummyAds/Interstitials/768x1024.prefab using Guid(9e579ef4793d34e79be6a216c0b67d78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f977d795f242addf23366597f5ab939c') in 0.002961 seconds
+  Import took 0.004987 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002682 seconds.
+  path: Assets/ExternalDependencyManager/Editor/1.2.167
+  artifactKey: Guid(f470ad8568a8c5f4ca7882710aa88d4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExternalDependencyManager/Editor/1.2.167 using Guid(f470ad8568a8c5f4ca7882710aa88d4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbf6323554fe7d3d3acdbe76fa0816fb') in 0.004117 seconds
+  Import took 0.006004 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005336 seconds.
+  path: Assets/GoogleMobileAds/Editor/Resources/DummyAds/AdImages/300x250.png
+  artifactKey: Guid(898f886a39d714db5b90d2c36676c894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleMobileAds/Editor/Resources/DummyAds/AdImages/300x250.png using Guid(898f886a39d714db5b90d2c36676c894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97d267b4ec5a5a47e7360fa10dda37d3') in 0.013676 seconds
+  Import took 0.016106 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004792 seconds.
+  path: Assets/GoogleMobileAds/Editor/Resources/DummyAds/Banners/BANNER.prefab
+  artifactKey: Guid(b2a8ac187bcca47a286cb00c8094da36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleMobileAds/Editor/Resources/DummyAds/Banners/BANNER.prefab using Guid(b2a8ac187bcca47a286cb00c8094da36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06bd3fa987d3822caf008687d1e3ba5f') in 0.005662 seconds
+  Import took 0.007605 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004916 seconds.
+  path: Assets/GoogleMobileAds/Editor/GoogleMobileAdsDependencies.xml
+  artifactKey: Guid(2c9357ed17521401bb7b6733145ebcd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleMobileAds/Editor/GoogleMobileAdsDependencies.xml using Guid(2c9357ed17521401bb7b6733145ebcd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '891c6f522a2996fe6cd0ad3fcd0b7ece') in 0.004844 seconds
+  Import took 0.006720 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004545 seconds.
+  path: Assets/GoogleMobileAds/GoogleMobileAds.Android.dll
+  artifactKey: Guid(9daf61812a464faa90dec7f977094a88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleMobileAds/GoogleMobileAds.Android.dll using Guid(9daf61812a464faa90dec7f977094a88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03317ed4ba4e58514055555999b03368') in 0.004312 seconds
+  Import took 0.006319 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004700 seconds.
+  path: Assets/ExternalDependencyManager/Editor/Google.VersionHandler.dll
+  artifactKey: Guid(f895c38a10144a2190fcd0a62357adcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExternalDependencyManager/Editor/Google.VersionHandler.dll using Guid(f895c38a10144a2190fcd0a62357adcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0118b168a0786127255d14bfecd76240') in 0.003849 seconds
+  Import took 0.005662 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008553 seconds.
+  path: Assets/GoogleMobileAds/GoogleMobileAds.Common.dll
+  artifactKey: Guid(91a5b07cc3384f86a88d7c29698e058b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleMobileAds/GoogleMobileAds.Common.dll using Guid(91a5b07cc3384f86a88d7c29698e058b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95748b5b12f6a6e02fd8968a42921637') in 0.004574 seconds
+  Import took 0.006762 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008801 seconds.
+  path: Assets/ExternalDependencyManager/Editor/1.2.167/Google.IOSResolver.dll
+  artifactKey: Guid(487d7d4b088f42f8bf5bd0c2553e4ef8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExternalDependencyManager/Editor/1.2.167/Google.IOSResolver.dll using Guid(487d7d4b088f42f8bf5bd0c2553e4ef8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71398e5c252fe27adc4f835ff1cc9945') in 0.003973 seconds
+  Import took 0.005849 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004521 seconds.
+  path: Assets/ExternalDependencyManager/Editor/1.2.167/Google.IOSResolver.dll.mdb
+  artifactKey: Guid(efbc39f33fa745a5971b02a054b8b633) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExternalDependencyManager/Editor/1.2.167/Google.IOSResolver.dll.mdb using Guid(efbc39f33fa745a5971b02a054b8b633) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ed556784fcb13a97db055f9162ac1f0') in 0.004905 seconds
+  Import took 0.006858 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005096 seconds.
+  path: Assets/GoogleMobileAds/Editor/Resources/DummyAds/AdImages/320x50.png
+  artifactKey: Guid(5a6531d4c9c484d679a2d6f9e6fefed5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleMobileAds/Editor/Resources/DummyAds/AdImages/320x50.png using Guid(5a6531d4c9c484d679a2d6f9e6fefed5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3877a520adb11d46a63da046c1db20c') in 0.012200 seconds
+  Import took 0.014286 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005215 seconds.
+  path: Assets/Plugins/Android/GoogleMobileAdsPlugin.androidlib/project.properties
+  artifactKey: Guid(1d06ef613dfec4baa88b56aeef69cd9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Android/GoogleMobileAdsPlugin.androidlib/project.properties using Guid(1d06ef613dfec4baa88b56aeef69cd9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01e9823716e00e642b378c99262b6274') in 0.006409 seconds
+  Import took 0.008344 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007247 seconds.
+  path: Assets/GoogleMobileAds
+  artifactKey: Guid(fdc817969e0fae7468e9013b6584e665) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleMobileAds using Guid(fdc817969e0fae7468e9013b6584e665) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fb2862b130d7cbbeaae5e9913d96cc8') in 0.005254 seconds
+  Import took 0.007704 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004509 seconds.
+  path: Assets/GoogleMobileAds/GoogleMobileAds.dll
+  artifactKey: Guid(b251d35e618a42e085fb4a5a888d05cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleMobileAds/GoogleMobileAds.dll using Guid(b251d35e618a42e085fb4a5a888d05cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c31cfdc1491aedebd3b5299b328a1654') in 0.001242 seconds
+  Import took 0.002955 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004874 seconds.
+  path: Assets/GoogleMobileAds/GoogleMobileAds.Unity.dll
+  artifactKey: Guid(3bce71ee5c7c4e0fbbb4d836c01a35a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleMobileAds/GoogleMobileAds.Unity.dll using Guid(3bce71ee5c7c4e0fbbb4d836c01a35a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f824f20511fc642c00e87a58b98e3400') in 0.003990 seconds
+  Import took 0.005707 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004941 seconds.
+  path: Assets/Plugins/Android/googlemobileads-unity.aar
+  artifactKey: Guid(f6190f2d34454c59917a4c1305f171d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Android/googlemobileads-unity.aar using Guid(f6190f2d34454c59917a4c1305f171d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58306590cf76df07153ae1fab73401df') in 0.005332 seconds
+  Import took 0.007106 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005024 seconds.
+  path: Assets/GoogleMobileAds/Editor/ManifestProcessor.cs
+  artifactKey: Guid(c9ee5d47594eb43a19e795c834fdc044) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleMobileAds/Editor/ManifestProcessor.cs using Guid(c9ee5d47594eb43a19e795c834fdc044) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c282c9835244e797c86d03420ff1982a') in 0.004034 seconds
+  Import took 0.005796 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004613 seconds.
+  path: Assets/GoogleMobileAds/Editor/Resources/DummyAds/AppOpen/768x1024.prefab
+  artifactKey: Guid(7d86e5c9e525f4fadbbea7ee54246b94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleMobileAds/Editor/Resources/DummyAds/AppOpen/768x1024.prefab using Guid(7d86e5c9e525f4fadbbea7ee54246b94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41fc12707465eba618848e1a5e0ee923') in 0.002741 seconds
+  Import took 0.004569 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004625 seconds.
+  path: Assets/GoogleMobileAds/GoogleMobileAds_version-6.1.2_manifest.txt
+  artifactKey: Guid(e043e74e38ec4b80907377443dcba22d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleMobileAds/GoogleMobileAds_version-6.1.2_manifest.txt using Guid(e043e74e38ec4b80907377443dcba22d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34443803e9e3bc9114693785144b73db') in 0.007033 seconds
+  Import took 0.008999 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005115 seconds.
+  path: Assets/GoogleMobileAds/Editor/GoogleMobileAdsSKAdNetworkItems.xml
+  artifactKey: Guid(b18ecf64be00344e7b039c69e9af56bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleMobileAds/Editor/GoogleMobileAdsSKAdNetworkItems.xml using Guid(b18ecf64be00344e7b039c69e9af56bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ec4addd1207ce91e002d70bd156c566') in 0.004316 seconds
+  Import took 0.006352 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008821 seconds.
+  path: Assets/ExternalDependencyManager/Editor/external-dependency-manager_version-1.2.167_manifest.txt
+  artifactKey: Guid(591c4d74b7e74bd2b0b1aad9443cd739) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExternalDependencyManager/Editor/external-dependency-manager_version-1.2.167_manifest.txt using Guid(591c4d74b7e74bd2b0b1aad9443cd739) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7269a0aea7c03ee2d8230ab6f72f48d7') in 0.004643 seconds
+  Import took 0.006462 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002781 seconds.
+  path: Assets/Plugins/iOS
+  artifactKey: Guid(89c48f4386e50bd48be750603b180ad5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/iOS using Guid(89c48f4386e50bd48be750603b180ad5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dc46af3af99f015ba8d53570304389e') in 0.004618 seconds
+  Import took 0.006716 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005074 seconds.
+  path: Assets/GoogleMobileAds/Editor/Resources/DummyAds/AdImages/728x90.png
+  artifactKey: Guid(cfead63ff9d9d48e2b4ba3c2dee7cea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleMobileAds/Editor/Resources/DummyAds/AdImages/728x90.png using Guid(cfead63ff9d9d48e2b4ba3c2dee7cea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ec62eda20c74db6297ecd8e76a4b0c2') in 0.013286 seconds
+  Import took 0.015126 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004868 seconds.
+  path: Assets/ExternalDependencyManager/Editor/1.2.167/Google.VersionHandlerImpl.dll.mdb
+  artifactKey: Guid(8cb29863f3964e40814d9df74984377f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExternalDependencyManager/Editor/1.2.167/Google.VersionHandlerImpl.dll.mdb using Guid(8cb29863f3964e40814d9df74984377f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15fc8ac69896f6746b0c0345b33999ac') in 0.004934 seconds
+  Import took 0.007073 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008410 seconds.
+  path: Assets/GoogleMobileAds/Editor/Resources/DummyAds/AppOpen/1024x768.prefab
+  artifactKey: Guid(30454d768d0994255b52eafa89dad8e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleMobileAds/Editor/Resources/DummyAds/AppOpen/1024x768.prefab using Guid(30454d768d0994255b52eafa89dad8e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fcede9590f69b2ee16158ecfe39f06c') in 0.003046 seconds
+  Import took 0.004854 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008089 seconds.
+  path: Assets/GoogleMobileAds/Editor/Resources/DummyAds/Banners/FULL_BANNER.prefab
+  artifactKey: Guid(a01bd5a6d0f504aecb61dad504950abd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleMobileAds/Editor/Resources/DummyAds/Banners/FULL_BANNER.prefab using Guid(a01bd5a6d0f504aecb61dad504950abd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '949e283c909373cc5466fc058dd4860f') in 0.005647 seconds
+  Import took 0.007717 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003188 seconds.
+  path: Assets/GoogleMobileAds/Editor/Resources/DummyAds/AppOpen
+  artifactKey: Guid(43bdcec46e0192c4b966de409d628616) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleMobileAds/Editor/Resources/DummyAds/AppOpen using Guid(43bdcec46e0192c4b966de409d628616) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b81d6295f8a1f8ea0153f247b6b69a1f') in 0.004122 seconds
+  Import took 0.006144 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002862 seconds.
+  path: Assets/GoogleMobileAds/Editor/Resources/DummyAds/Interstitials
+  artifactKey: Guid(c235dbf4ff50bc248b0e0daa9d8fc523) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleMobileAds/Editor/Resources/DummyAds/Interstitials using Guid(c235dbf4ff50bc248b0e0daa9d8fc523) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d9ac592ce6ab90e770ddc7f9bea3bf4') in 0.004923 seconds
+  Import took 0.006811 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007526 seconds.
+  path: Assets/Plugins/iOS/unity-plugin-library.a
+  artifactKey: Guid(3fbd85863e7246c8b9de13243cc83b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/iOS/unity-plugin-library.a using Guid(3fbd85863e7246c8b9de13243cc83b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c4c1ad67eb5d2c67a7a9cb3025ecaf2') in 0.005183 seconds
+  Import took 0.007063 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006987 seconds.
+  path: Assets/Plugins/Android
+  artifactKey: Guid(09af8cb0da0bd114f9acf88005da2042) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Android using Guid(09af8cb0da0bd114f9acf88005da2042) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62fd5746f27d2031305e97c65cd80f20') in 0.003769 seconds
+  Import took 0.005483 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005106 seconds.
+  path: Assets/GoogleMobileAds/Editor/Resources/DummyAds/Banners/SMART_BANNER.prefab
+  artifactKey: Guid(15069cdc38e2b41f7836116419a9187c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleMobileAds/Editor/Resources/DummyAds/Banners/SMART_BANNER.prefab using Guid(15069cdc38e2b41f7836116419a9187c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '044bbc7f67218651d77e5ab83957107a') in 0.006159 seconds
+  Import took 0.008072 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002758 seconds.
+  path: Assets/GoogleMobileAds/Resources
+  artifactKey: Guid(3a8941e0f611a0245ad3f902e95a501e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleMobileAds/Resources using Guid(3a8941e0f611a0245ad3f902e95a501e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55b79d33df5e9799d3fbd94f97180d5f') in 0.004120 seconds
+  Import took 0.005774 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002752 seconds.
+  path: Assets/GoogleMobileAds/Editor/Resources
+  artifactKey: Guid(5fc279791a498f14e9515cf8623d2e40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleMobileAds/Editor/Resources using Guid(5fc279791a498f14e9515cf8623d2e40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8183850066d658d828b5464cfdfa9454') in 0.001149 seconds
+  Import took 0.002839 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004332 seconds.
+  path: Assets/GoogleMobileAds/GoogleMobileAds.Core.dll
+  artifactKey: Guid(36487fa6a5984d3a80bc98eca8a2b9e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleMobileAds/GoogleMobileAds.Core.dll using Guid(36487fa6a5984d3a80bc98eca8a2b9e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67da051a281908073f36627da2465bef') in 0.004393 seconds
+  Import took 0.006337 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003109 seconds.
+  path: Assets/GoogleMobileAds/Editor/Resources/DummyAds
+  artifactKey: Guid(fa2c75db2af7fcd49b773cffd2880b72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleMobileAds/Editor/Resources/DummyAds using Guid(fa2c75db2af7fcd49b773cffd2880b72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3c3779475507fa92be5c881988dea4a') in 0.003867 seconds
+  Import took 0.005569 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002671 seconds.
+  path: Assets/GoogleMobileAds/Editor/Resources/DummyAds/Banners
+  artifactKey: Guid(aa9e5753fefe60e448195baeda6ba7e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleMobileAds/Editor/Resources/DummyAds/Banners using Guid(aa9e5753fefe60e448195baeda6ba7e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d50152e43318cb8437b08e4376373f5') in 0.004299 seconds
+  Import took 0.006094 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005971 seconds.
+  path: Assets/GoogleMobileAds/Editor/Resources/DummyAds/AdImages/320x100.png
+  artifactKey: Guid(1a2723ddf964e4565a408007ab387283) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleMobileAds/Editor/Resources/DummyAds/AdImages/320x100.png using Guid(1a2723ddf964e4565a408007ab387283) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d1ad54fc8fa0c06961f28b0a6b3f1e7') in 0.013811 seconds
+  Import took 0.016143 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003084 seconds.
+  path: Assets/GoogleMobileAds/Editor/Resources/DummyAds/Rewarded
+  artifactKey: Guid(e7b196e411f8d884ba74073b4408fb29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleMobileAds/Editor/Resources/DummyAds/Rewarded using Guid(e7b196e411f8d884ba74073b4408fb29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1b4343504cfe4442365139c4b6c27ab') in 0.004196 seconds
+  Import took 0.006239 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005624 seconds.
+  path: Assets/Plugins/iOS/GADUAdNetworkExtras.h
+  artifactKey: Guid(1c0d8a6c9b36440eaa4c01518670217f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/iOS/GADUAdNetworkExtras.h using Guid(1c0d8a6c9b36440eaa4c01518670217f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f207566690b69a1860ff0ac92360819b') in 0.006780 seconds
+  Import took 0.008729 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005556 seconds.
+  path: Assets/Plugins/Android/GoogleMobileAdsPlugin.androidlib/AndroidManifest.xml
+  artifactKey: Guid(e869b36b657604102a7166a39ee7d9c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Android/GoogleMobileAdsPlugin.androidlib/AndroidManifest.xml using Guid(e869b36b657604102a7166a39ee7d9c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce4b6d816ecacabfca030d23b942c242') in 0.004531 seconds
+  Import took 0.006819 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004888 seconds.
+  path: Assets/Script/Admob/Admob_Reklam_Manager.cs
+  artifactKey: Guid(437f8622e4a42b048af8ed5af51df7c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/Admob/Admob_Reklam_Manager.cs using Guid(437f8622e4a42b048af8ed5af51df7c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acb3db09c6752075614b21f7c5e14a05') in 0.005010 seconds
+  Import took 0.007387 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004751 seconds.
+  path: Assets/ExternalDependencyManager/Editor/1.2.167/Google.VersionHandlerImpl.dll
+  artifactKey: Guid(6b34dbfb498f4c79b77494066d57610b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExternalDependencyManager/Editor/1.2.167/Google.VersionHandlerImpl.dll using Guid(6b34dbfb498f4c79b77494066d57610b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78caebdc9fa2ff7ef90c2ae0fb634b2b') in 0.004010 seconds
+  Import took 0.005890 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004948 seconds.
+  path: Assets/GoogleMobileAds/Editor/Resources/DummyAds/AdImages/468x60.png
+  artifactKey: Guid(74358f5fb13a549aabac4a5a7ac76739) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleMobileAds/Editor/Resources/DummyAds/AdImages/468x60.png using Guid(74358f5fb13a549aabac4a5a7ac76739) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60f6ef301400c01cd0ae257ddf18fd85') in 0.010806 seconds
+  Import took 0.012787 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006118 seconds.
+  path: Assets/ExternalDependencyManager/Editor/1.2.167/Google.JarResolver.dll
+  artifactKey: Guid(5b4582b32cf04e59b3a92a22b531bfd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExternalDependencyManager/Editor/1.2.167/Google.JarResolver.dll using Guid(5b4582b32cf04e59b3a92a22b531bfd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5913b6af9eae9050b3349a23fc705107') in 0.004028 seconds
+  Import took 0.005819 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005054 seconds.
+  path: Assets/ExternalDependencyManager/Editor/README.md
+  artifactKey: Guid(514ffb7a5a644965a15c59eb073f687a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExternalDependencyManager/Editor/README.md using Guid(514ffb7a5a644965a15c59eb073f687a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7909e7f3c72b4f15538d1c94bee4c73') in 0.004586 seconds
+  Import took 0.006583 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004714 seconds.
+  path: Assets/GoogleMobileAds/Editor/Resources/DummyAds/AdImages/480x320.png
+  artifactKey: Guid(d30303c99ba3f4b9b9924da34e6d742d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleMobileAds/Editor/Resources/DummyAds/AdImages/480x320.png using Guid(d30303c99ba3f4b9b9924da34e6d742d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67168705e823f081cf01df91d25f05a5') in 0.015162 seconds
+  Import took 0.017062 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003218 seconds.
+  path: Assets/GoogleMobileAds/Editor/Resources/DummyAds/AdImages
+  artifactKey: Guid(39b7833c96d070f4a93d5d4412bf9c19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleMobileAds/Editor/Resources/DummyAds/AdImages using Guid(39b7833c96d070f4a93d5d4412bf9c19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b426b21629900839ed78427836040397') in 0.004049 seconds
+  Import took 0.005912 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006731 seconds.
+  path: Assets/GoogleMobileAds/Editor/GoogleMobileAds.Editor.asmdef
+  artifactKey: Guid(cbb42e4cfd9484f52972c8f05e1c3252) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleMobileAds/Editor/GoogleMobileAds.Editor.asmdef using Guid(cbb42e4cfd9484f52972c8f05e1c3252) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3a1eccf59e3bc9f0fdd9229f31323e5') in 0.005330 seconds
+  Import took 0.007140 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008303 seconds.
+  path: Assets/GoogleMobileAds/Editor/Resources/DummyAds/Rewarded/1024x768.prefab
+  artifactKey: Guid(ac0a546bb4fb349229fc5824b288ec00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleMobileAds/Editor/Resources/DummyAds/Rewarded/1024x768.prefab using Guid(ac0a546bb4fb349229fc5824b288ec00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29b65b9b331d2c97c63ec749353f2290') in 0.003056 seconds
+  Import took 0.005164 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005567 seconds.
+  path: Assets/GoogleMobileAds/Editor/Resources/DummyAds/AdImages/1024x768.png
+  artifactKey: Guid(4c69db43dbd474a2987be5807129b4cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleMobileAds/Editor/Resources/DummyAds/AdImages/1024x768.png using Guid(4c69db43dbd474a2987be5807129b4cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6b0cbdcdff01b54c21f6ade50d59697') in 0.013771 seconds
+  Import took 0.016058 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

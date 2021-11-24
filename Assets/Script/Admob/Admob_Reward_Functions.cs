@@ -19,10 +19,22 @@ public class Admob_Reward_Functions : MonoBehaviour
     IEnumerator AdmobOdulYukle()
     {
         yield return new WaitForSeconds(1);
-        Admob_Reklam_Banner.Instance.WhenUseBanner(BannerAdClicked);
-        Admob_Reklam_Interstitial.Instance.WhenUseInterstitial(InterstitialButtonClicked);
-        Admob_Reklam_Reward_Interstitial.Instance.WhenUseRewardInterstitial(GiveRewardInterstitial);
-        Admob_Reklam_Reward.Instance.WhenUseReward(RewardButtonClicked);
+        if (Admob_Reklam_Banner.Instance != null)
+        {
+            Admob_Reklam_Banner.Instance.WhenUseBanner(BannerAdClicked);
+        }
+        if (Admob_Reklam_Interstitial.Instance != null)
+        {
+            Admob_Reklam_Interstitial.Instance.WhenUseInterstitial(InterstitialButtonClicked);
+        }
+        if (Admob_Reklam_Reward_Interstitial.Instance != null)
+        {
+            Admob_Reklam_Reward_Interstitial.Instance.WhenUseRewardInterstitial(GiveRewardInterstitial);
+        }
+        if (Admob_Reklam_Reward.Instance != null)
+        {
+            Admob_Reklam_Reward.Instance.WhenUseReward(RewardButtonClicked);
+        }
     }
     // When someone clicked Banner Ad, this function will active.
     public void BannerAdClicked()

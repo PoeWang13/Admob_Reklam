@@ -7,10 +7,14 @@ using System;
 public class Admob_Reklam_Manager : MonoBehaviour
 {
     [Header("Admob Ad Units :")]
-    [SerializeField] private string idBanner = "ca-app-pub-3940256099942544/6300978111";
-    [SerializeField] private string idInterstitial = "ca-app-pub-3940256099942544/1033173712";
-    [SerializeField] private string idRewardedInterstitial = "ca-app-pub-3940256099942544/1033173712";
-    [SerializeField] private string idReward = "ca-app-pub-3940256099942544/5224354917";
+    [SerializeField] private string idBanner = "";
+    [SerializeField] private string idInterstitial = "";
+    [SerializeField] private string idRewardedInterstitial = "";
+    [SerializeField] private string idReward = "";
+    private string testIdBanner = "ca-app-pub-3940256099942544/6300978111";
+    private string testIdInterstitial = "ca-app-pub-3940256099942544/1033173712";
+    private string testIdRewardedInterstitial = "ca-app-pub-3940256099942544/1033173712";
+    private string testIdReward = "ca-app-pub-3940256099942544/5224354917";
     [Header("Activeted for using this Banners")]
     [SerializeField] private bool useBanner;
     [SerializeField] private bool useInterstitial;
@@ -43,6 +47,7 @@ public class Admob_Reklam_Manager : MonoBehaviour
         {
             Admob_Reklam_Banner banner = new GameObject("Banner_Reklam", typeof(Admob_Reklam_Banner)).GetComponent<Admob_Reklam_Banner>();
             banner.SetBanner(this);
+            OnBannerAdOpening = null;
             OnBannerAdOpening += () => ShowBannerAd();
         }
         if (useInterstitial)
@@ -61,27 +66,23 @@ public class Admob_Reklam_Manager : MonoBehaviour
             reward.SetReward(this);
         }
     }
-
     private AdRequest CreateAdRequest()
     {
         return new AdRequest.Builder()
            .AddExtra("npa", PlayerPrefs.GetString("npa", "1"))
            .Build();
     }
-
     private void OnDestroy()
     {
         DestroyBannerAd();
         DestroyInterstitialAd();
         DestroyRewardedInterstitialAd();
     }
-
     #region Banner Reklam
     public UnityAction OnBannerAdOpening;
-
     public void ShowBannerAd()
     {
-        AdBanner = new BannerView(idBanner, AdSize.Banner, AdPosition.Bottom);
+        AdBanner = new BannerView((idBanner != string.Empty) ? idBanner : testIdBanner, AdSize.Banner, AdPosition.Bottom);
         AdBanner.OnAdOpening += (sender, e) => {
             if (OnBannerAdOpening != null)
                 OnBannerAdOpening.Invoke();
@@ -93,6 +94,14 @@ public class Admob_Reklam_Manager : MonoBehaviour
         if (AdBanner != null)
             AdBanner.Destroy();
     }
+    public void HideBanner()
+    {
+        AdBanner.Hide();
+    }
+    public void ShowBanner()
+    {
+        AdBanner.Show();
+    }
     #endregion
 
     #region Interstitial Ad
@@ -102,7 +111,7 @@ public class Admob_Reklam_Manager : MonoBehaviour
     public UnityAction OnInterstitialAdClosed;
     public void RequestInterstitialAd()
     {
-        AdInterstitial = new InterstitialAd(idInterstitial);
+        AdInterstitial = new InterstitialAd((idInterstitial != string.Empty) ? idInterstitial : testIdInterstitial);
         AdInterstitial.OnAdLoaded += (sender, e) => {
             if (OnInterstitialAdLoaded != null)
                 OnInterstitialAdLoaded.Invoke();
@@ -139,7 +148,7 @@ public class Admob_Reklam_Manager : MonoBehaviour
     public UnityAction OnRewardInterstitialAdOpening;
     public void RequestRewardInterstitialAd()
     {
-        RewardedInterstitialAd.LoadAd(idRewardedInterstitial, CreateAdRequest(), AdLoadCallback);
+        RewardedInterstitialAd.LoadAd((idRewardedInterstitial != string.Empty) ? idRewardedInterstitial : testIdRewardedInterstitial, CreateAdRequest(), AdLoadCallback);
     }
     private void AdLoadCallback(RewardedInterstitialAd ad, AdFailedToLoadEventArgs error)
     {
@@ -195,7 +204,7 @@ public class Admob_Reklam_Manager : MonoBehaviour
     public UnityAction OnRewardAdClosed;
     public void RequestRewardAd()
     {
-        AdReward = new RewardedAd(idReward);
+        AdReward = new RewardedAd((idReward != string.Empty) ? idReward : testIdReward);
         AdReward.OnAdClosed += (sender, e) => {
             if (OnRewardAdClosed != null)
                 OnRewardAdClosed.Invoke();
